@@ -13,7 +13,7 @@ describe('my-directives', function() {
         describe('when created', function() {
             it('should initial the value to I am a directive', function() {
                 element = createDirective(template);
-                expect(element.text()).toContain('I am a directive');
+                expect(element.text()).toContain('Hello, I am a directive.');
             });
         });
     }
